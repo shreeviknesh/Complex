@@ -44,7 +44,7 @@ public:
 	double arg() const noexcept;
 	friend double arg(const Complex&) noexcept;
 
-	// Argument value
+	// Conjugate value
 	Complex conj() const noexcept;
 	friend Complex conj(const Complex&) noexcept;
 
