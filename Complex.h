@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cmath>
+
 #ifndef COMPLEX_H
 #define COMPLEX_H
 
