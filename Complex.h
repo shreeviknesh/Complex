@@ -1,5 +1,7 @@
 #include <iostream>
-#pragma once
+#ifndef COMPLEX_H
+#define COMPLEX_H
+
 class Complex {
 private:
 	double a;
@@ -51,3 +53,5 @@ public:
 	// Output
 	friend std::ostream& operator<<(std::ostream&, const Complex&);
 };
+
+#endif
