@@ -1,8 +1,13 @@
 #include "Complex.h"
 
-Complex::Complex() noexcept : a(0), b(0) {}
-Complex::Complex(double real, double imaginary) noexcept : a(real), b(imaginary) {}
-Complex::Complex(const Complex& complex) noexcept : a(complex.a), b(complex.b) {}
+Complex::Complex() noexcept
+    : a(0), b(0) {}
+
+Complex::Complex(double real, double imaginary) noexcept
+    : a(real), b(imaginary) {}
+
+Complex::Complex(const Complex& complex) noexcept
+    : a(complex.a), b(complex.b) {}
 
 double real(const Complex& complex) noexcept { return complex.a; }
 double imag(const Complex& complex) noexcept { return complex.b; }
